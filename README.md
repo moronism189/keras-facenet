@@ -1,15 +1,10 @@
 # keras-facenet
 Facenet implementation by Keras2
 
-## Pretrained model
-You can quickly start facenet with pretrained Keras model (trained by MS-Celeb-1M dataset).
-- Download model from [here](https://drive.google.com/open?id=1pwQ3H4aJ8a6yyJHZkTwtjcL4wYWQb7bn) and save it in model/keras/
-
-
-You can also create Keras model from pretrained tensorflow model.
-- Download model from [here](https://github.com/davidsandberg/facenet) and save it in model/tf/
-- Convert model for Keras in [tf_to_keras.ipynb](https://github.com/nyoki-mtl/keras-facenet/blob/master/notebook/tf_to_keras.ipynb)
-
+## changed by forker
+- Download pretrained tensorflow model, and convert model for Keras(facenet_keras.h5)
+- Share the .h5 file download link in /model/keras/model/facenet_keras.h5.download
+- add a multiface recognition demo(demo-svm-multiface.ipynb) in the folder /notebook/
 
 ## Demo
 - [Face vector calculation](https://github.com/nyoki-mtl/keras-facenet/blob/master/notebook/demo-images.ipynb)
